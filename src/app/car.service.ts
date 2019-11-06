@@ -4,6 +4,8 @@ import { HttpClient, HttpErrorResponse, HttpParams } from '@angular/common/http'
 import { Observable, throwError } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
 
+import * as nodemailer from 'nodemailer';
+
 import {Car} from './car';
 
 
